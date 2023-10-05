@@ -2,8 +2,7 @@
 name = "bookstore"
 version = "0.1.0"
 description = "Bookstore API"
-authors = ["tanakaxitao <tanakacvr@gmail.com>"]
-readme = "README.md"
+authors = ["Gabriel Lopes <tanakaamc1@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -12,9 +11,17 @@ factory-boy = "^3.3.0"
 django = "^4.2.5"
 django-rest-framework = "^0.1.0"
 django-extensions = "^3.2.3"
+django-debug-toolbar = "^3.2.2"
 flake8 = "^6.1.0"
+whitenoise = "^6.5.0"
 
+
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.2"
+factory-boy = "^3.2.0"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
